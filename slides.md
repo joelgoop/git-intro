@@ -16,9 +16,18 @@ Joel Goop
 
 ### A sequence of changes
 
+Snapshots of all code at important points
+
 ![Diff sequence.](img/basic_diffs.png) <!-- .element: style="border: none; background: none; box-shadow: none" -->
 
 
+----
+
+### Branches 
+
+Different versions at the same time
+
+![Branches.](img/git-features-branch.png)  <!-- .element: style="border: none; background: none; box-shadow: none" -->
 
 ---
 
