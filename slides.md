@@ -10,20 +10,42 @@ Joel Goop
 
 ---
 
-## General version control
+### Familiar?
+
+![notFinal.doc](img/phd101212s.png) <!-- .element: style="border: none; background: none; box-shadow: none; height: 500px" -->
 
 ----
 
-### A sequence of changes
+### Problem
 
-Snapshots of all code at important points
+![Which one is the right version?](img/version-control-1.png) <!-- .element: style="border: none; background: none; box-shadow: none; height: 500px" -->
+
+----
+
+### Solution: Version control!
+
+- Store changes
+- Works for any text-based content
 
 ![Diff sequence.](img/basic_diffs.png) <!-- .element: style="border: none; background: none; box-shadow: none" -->
 
+----
+
+### Advantages: Changelog
+
+"Commits": snapshots with messages
+
+![Commit log for cpython.](img/commit-log.png)  <!-- .element: style="border: none; background: none; box-shadow: none; height: 400px" -->
 
 ----
 
-### Branches 
+### Example of commit
+
+![Changelog.](img/commit-example.png)  <!-- .element: style="border: none; background: none; box-shadow: none; height: 400px; width: auto" -->
+
+----
+
+### Advantages: Branches and merging 
 
 Different versions at the same time
 
