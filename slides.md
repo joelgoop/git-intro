@@ -55,8 +55,11 @@ Different versions at the same time
 
 ### Limitations
 
-- Only works well for <span style="color: firebrick">raw text</span>
-- Tracks changes <span style="color: firebrick">line-by-line</span>
+- Only works well for <span style="color: darkorange">raw text</span>
+  + Binary files have to be replaced on each change
+- Tracks changes <span style="color: darkorange">line-by-line</span>, bad for
+  + Large chunks of text on single lines
+  + Table data (update column -> every line changes)
 - <span style="color: firebrick">Large files</span> (especially binary) can make it slow
 
 ---
@@ -176,7 +179,9 @@ Show example repository:
 
 ### `git diff`: What has changed?
 
-Show the changes between any two commits or between current working copy and last commit
+- Show changes between versions
+  + Between any two commits, e.g. branches, or
+  + Uncommitted changes since last commit
 
 ```diff
 public class Hello1
@@ -214,6 +219,20 @@ Date:   Wed Apr 20 13:03:48 2016 +0200
 Note:
 
 Show in example repository (and ELIN/EPOD?).
+
+
+----
+
+### `git blame`: Who did what when?
+
+
+![Blame.](img/blame.png) <!-- .element: style="border: none; background: none; height: 360px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->
+
+Note:
+
+- Difficult to read raw output 
+- Web interfaces/GUI shows nicely
+- Example from bitbucket
 
 
 ---
