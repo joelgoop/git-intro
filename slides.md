@@ -270,12 +270,12 @@ Every copy has the full history: <span style="color: forestgreen">all are equal<
 
 ### Benefits of hosted services 
 
-- Backup and availability
 - Web interface
+- Backup and availability
 - Permissions and access
 - Additional tools
-  + Issue tracking
-  + Wiki
+  + <span style="color: forestgreen">Issue tracking (!)</span>
+  + Pull requests, code review, wiki...
 
 ---
 
@@ -283,7 +283,7 @@ Every copy has the full history: <span style="color: forestgreen">all are equal<
 
 ----
 
-### Default is command-line
+### Command-line interface (included)
 
 - Learn how `git` works!
 - Graphical tools can be connected: diffs and merges
@@ -292,10 +292,10 @@ Every copy has the full history: <span style="color: forestgreen">all are equal<
 
 ----
 
-### Grahpical interfaces
+### Grahpical interfaces (install separately)
 
 - Easy to get overview and browse history
-- Requires <span style="color: forestgreen">basic understanding of commands</span>!
+- Requires <span style="color: darkorange">basic understanding of commands</span>!
 - Many options available ([list here](https://git-scm.com/download/gui/win))
 
 ![GUI options.](img/guis.png) <!-- .element: style="border: none; background: none; height: 350px; box-shadow: none;" -->
