@@ -1,31 +1,37 @@
----
-theme: simple
----
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>reveal-md</title>
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./css/theme/simple.css" id="theme">
+        <link rel="stylesheet" href="./css/highlight/zenburn.css">
+        <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
+
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template">
 
 ## Version control with `git`
 
 Joel Goop
 
 2017-03-09
-
----
-
+</script></section><section ><section data-markdown><script type="text/template">
 ### Familiar?
 
 [![notFinal.doc](img/phd101212s.png)<!-- .element: style="border: none; background: none; box-shadow: none; height: 500px" -->](http://www.phdcomics.com/comics/archive.php?comicid=1531) 
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From "Piled Higher and Deeper" by Jorge Cham<br />http://www.phdcomics.com
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Problem
 
 [![Which one is the right version?](img/version-control-1.png) <!-- .element: style="border: none; background: none; box-shadow: none; height: 500px" -->](http://geek-and-poke.com/geekandpoke/2012/11/3/simply-explained.html)
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From "Geek & Poke" by Oliver Widder, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en_US)
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Solution: Version control!
 
 - Store changes
@@ -36,9 +42,7 @@ Joel Goop
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From ["A Visual Guide to Version Control"](https://betterexplained.com/articles/a-visual-guide-to-version-control/) by Kalid Azad, [CC BY-NC-SA 3.0 US](https://creativecommons.org/licenses/by-nc-sa/3.0/us/)
 
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Advantages: Changelog
 
 "Commits": snapshots with messages
@@ -48,17 +52,13 @@ Joel Goop
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->Screenshot from the `python`/`cpython` repository on GitHub<br />https://github.com/python/cpython/commits/master
 
 
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Example of commit
 
 ![Changelog.](img/commit-example.png)  <!-- .element: style="border: none; background: none; box-shadow: none; height: 400px; width: auto" -->
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->Screenshot from the `python`/`cpython` repository on GitHub<br />https://github.com/python/cpython/commit/2225ddaa9e64c086b2b6997b0c9ac50921f7aa85
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Advantages: Branches and merging 
 
 Different versions at the same time
@@ -66,9 +66,7 @@ Different versions at the same time
 ![Branches.](img/git-features-branch.png)  <!-- .element: style="border: none; background: none; box-shadow: none" -->
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From "An introduction to Git (part 4): Git branches"<br />http://codekarate.com/blog/introduction-git-part-4
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Limitations
 
 - Only works well for <span style="color: darkorange">raw text</span>
@@ -77,14 +75,10 @@ Different versions at the same time
   + Large chunks of text on single lines
   + Table data (update column -> every line changes)
 - <span style="color: firebrick">Large files</span> (especially binary) can make it slow
-
----
-
+</script></section></section><section ><section data-markdown><script type="text/template">
 
 ## Git basics
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### About `git`
 
 - Version control tool (https://git-scm.com/)
@@ -94,9 +88,7 @@ Different versions at the same time
 ![Git homepage.](img/git-www.png) <!-- .element: style="border: none; background: none; height: 300px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->Screenshot from http://git-scm.com
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Concepts 1
 
 - Repository
@@ -107,16 +99,12 @@ Different versions at the same time
     + Hash
     + Tag
 
-Note:
-
-- Explain each concept.
-- Did anyone read guide?
-- Some terms are used differently.
-
-
-
-----
-
+<aside class="notes"><ul>
+<li>Explain each concept.</li>
+<li>Did anyone read guide?</li>
+<li>Some terms are used differently.</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
 
 ### Concepts 2
 
@@ -126,13 +114,11 @@ Note:
     + Clone
     + Push/pull
 
-Note:
-
-- More about branches soon
-- More about remotes later
-
-----
-
+<aside class="notes"><ul>
+<li>More about branches soon</li>
+<li>More about remotes later</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
 ### Basic usage
 
 - Important commands
@@ -148,30 +134,23 @@ Note:
       stuff/
       ```
 
-Note:
-
-Show example repository:
-
-- Initialize
-- Show status
-- Add files
-- Commit
-- Create ignore file
-- Commit
-- Show log
-
-
-
-----
-
+<aside class="notes"><p>Show example repository:</p>
+<ul>
+<li>Initialize</li>
+<li>Show status</li>
+<li>Add files</li>
+<li>Commit</li>
+<li>Create ignore file</li>
+<li>Commit</li>
+<li>Show log</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
 ### Remember: branches and merging 
 
 ![Branches.](img/git-features-branch.png)  <!-- .element: style="border: none; background: none; box-shadow: none" -->
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From "An introduction to Git (part 4): Git branches"<br />http://codekarate.com/blog/introduction-git-part-4
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Checkout and branches
 
 - `git checkout`: Go to any commit
@@ -179,24 +158,18 @@ Show example repository:
 - `git merge`: Merge a branch into the current
 - <span style="color: firebrick">Conflicts?!</span>
 
-Note:
-
-Show example repository:
-
-- Create branch
-- Change power to use built-in
-- Add and commit
-- Go to master
-- Add comments
-- Merge
-
-
----
-
+<aside class="notes"><p>Show example repository:</p>
+<ul>
+<li>Create branch</li>
+<li>Change power to use built-in</li>
+<li>Add and commit</li>
+<li>Go to master</li>
+<li>Add comments</li>
+<li>Merge</li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template">
 ## Useful features
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### `git diff`: What has changed?
 
 - Show changes between versions
@@ -214,12 +187,8 @@ public class Hello1
 }
 ```
 
-Note:
-
-Show in example repo
-
-----
-
+<aside class="notes"><p>Show in example repo</p>
+</aside></script></section><section data-markdown><script type="text/template">
 ### `git log`: History
 
 ```bash
@@ -236,32 +205,22 @@ Date:   Wed Apr 20 13:03:48 2016 +0200
     Re-add relative imports
 ```
 
-Note:
-
-Show in example repository (and ELIN/EPOD?).
-
-
-----
-
+<aside class="notes"><p>Show in example repository (and ELIN/EPOD?).</p>
+</aside></script></section><section data-markdown><script type="text/template">
 ### `git blame`: Who did what when?
 
 
 ![Blame.](img/blame.png) <!-- .element: style="border: none; background: none; height: 360px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->
 
-Note:
-
-- Difficult to read raw output 
-- Web interfaces/GUI shows nicely
-- Example from bitbucket
-
-
----
-
+<aside class="notes"><ul>
+<li>Difficult to read raw output </li>
+<li>Web interfaces/GUI shows nicely</li>
+<li>Example from bitbucket</li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template">
 ## Collaborating using `git`
 
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### `git` is decentralized
 
 Every copy has the full history: <span style="color: forestgreen">all are equal</span>!
@@ -270,9 +229,7 @@ Every copy has the full history: <span style="color: forestgreen">all are equal<
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From the ["Pro Git book", chapter 1.1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) written by Scott Chacon and Ben Straub, [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)<br />
 https://git-scm.com/book/en/v2/images/distributed.png
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Remotes: Linked copies of repositories
 
 - Another local folder, or
@@ -282,18 +239,14 @@ https://git-scm.com/book/en/v2/images/distributed.png
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From the ["Pro Git book", chapter 1.1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) written by Scott Chacon and Ben Straub, [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)<br />
 https://git-scm.com/book/en/v2/images/distributed.png
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### How to use remotes
 
 - `git remote add URL`
 - `git push/pull`: sync with remote
 - Conflicts must be <span style="color: firebrick">resolved locally</span>!
 - Identify with `ssh` keys
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Benefits of hosted services 
 
 - Web interface
@@ -302,22 +255,16 @@ https://git-scm.com/book/en/v2/images/distributed.png
 - Additional tools
   + <span style="color: forestgreen">Issue tracking (!)</span>
   + Pull requests, code review, wiki...
-
----
-
+</script></section></section><section ><section data-markdown><script type="text/template">
 ## Practical `git`
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Command-line interface (included)
 
 - Learn how `git` works!
 - Graphical tools can be connected: diffs and merges
 
 ![Command-line git.](img/cli.png) <!-- .element: style="border: none; background: none; height: 350px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 ### Grahpical interfaces (install separately)
 
 - Easy to get overview and browse history
@@ -327,24 +274,69 @@ https://git-scm.com/book/en/v2/images/distributed.png
 ![GUI options.](img/guis.png) <!-- .element: style="border: none; background: none; height: 350px; box-shadow: none;" -->
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->Screenshot from https://git-scm.com/download/gui/win
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 #### GUI example: GitKraken
 
 [![GitKraken screenshot.](img/kraken.png) <!-- .element: style="border: none; background: none; height: 500px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->](https://blog.axosoft.com/wp-content/uploads/2015/10/1-main-view.png)
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From ["Axosoft GitKraken: Unleash Your Repo!"](https://blog.axosoft.com/2015/10/13/gitkraken-git-gui-client-mac-windows-linux/), written by John Sparrow<br />
 https://blog.axosoft.com/wp-content/uploads/2015/10/1-main-view.png
-
-----
-
+</script></section><section data-markdown><script type="text/template">
 #### GUI example: SourceTree
 
 [![SourceTree screenshot.](img/sourcetree.png) <!-- .element: style="border: none; background: none; height: 500px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->](http://blog.sourcetreeapp.com/files/2013/02/st_win8_beta.png)
 
 <!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From ["SourceTree for Windows beta signup"](https://blog.sourcetreeapp.com/2013/02/14/sourcetree-for-windows-beta-signup/), written by Justen Stepka<br />http://blog.sourcetreeapp.com/files/2013/02/st_win8_beta.png
-
----
-
+</script></section></section><section  data-markdown><script type="text/template">
 ## Questions?
+</script></section></div>
+        </div>
+
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './plugin/zoom-js/zoom.js', async: true },
+              { src: './plugin/notes/notes.js', async: true },
+              { src: './plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default', // none/fade/slide/convex/concave/zoom
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {};
+            options = extend(defaultOptions, options, queryOptions);
+            Reveal.initialize(options);
+        </script>
+        
+    </body>
+</html>
