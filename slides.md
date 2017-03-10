@@ -12,13 +12,17 @@ Joel Goop
 
 ### Familiar?
 
-![notFinal.doc](img/phd101212s.png) <!-- .element: style="border: none; background: none; box-shadow: none; height: 500px" -->
+[![notFinal.doc](img/phd101212s.png)<!-- .element: style="border: none; background: none; box-shadow: none; height: 500px" -->](http://www.phdcomics.com/comics/archive.php?comicid=1531) 
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From "Piled Higher and Deeper" by Jorge Cham<br />http://www.phdcomics.com
 
 ----
 
 ### Problem
 
-![Which one is the right version?](img/version-control-1.png) <!-- .element: style="border: none; background: none; box-shadow: none; height: 500px" -->
+[![Which one is the right version?](img/version-control-1.png) <!-- .element: style="border: none; background: none; box-shadow: none; height: 500px" -->](http://geek-and-poke.com/geekandpoke/2012/11/3/simply-explained.html)
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From "Geek & Poke" by Oliver Widder, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en_US)
 
 ----
 
@@ -27,7 +31,11 @@ Joel Goop
 - Store changes
 - Works for any text-based content
 
-![Diff sequence.](img/basic_diffs.png) <!-- .element: style="border: none; background: none; box-shadow: none" -->
+[![Diff sequence.](img/basic_diffs.png) <!-- .element: style="border: none; background: none; box-shadow: none" -->](https://betterexplained.com/articles/a-visual-guide-to-version-control/)
+
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From ["A Visual Guide to Version Control"](https://betterexplained.com/articles/a-visual-guide-to-version-control/) by Kalid Azad, [CC BY-NC-SA 3.0 US](https://creativecommons.org/licenses/by-nc-sa/3.0/us/)
+
 
 ----
 
@@ -37,11 +45,17 @@ Joel Goop
 
 ![Commit log for cpython.](img/commit-log.png)  <!-- .element: style="border: none; background: none; box-shadow: none; height: 400px" -->
 
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->Screenshot from the `python`/`cpython` repository on GitHub<br />https://github.com/python/cpython/commits/master
+
+
+
 ----
 
 ### Example of commit
 
 ![Changelog.](img/commit-example.png)  <!-- .element: style="border: none; background: none; box-shadow: none; height: 400px; width: auto" -->
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->Screenshot from the `python`/`cpython` repository on GitHub<br />https://github.com/python/cpython/commit/2225ddaa9e64c086b2b6997b0c9ac50921f7aa85
 
 ----
 
@@ -50,6 +64,8 @@ Joel Goop
 Different versions at the same time
 
 ![Branches.](img/git-features-branch.png)  <!-- .element: style="border: none; background: none; box-shadow: none" -->
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From "An introduction to Git (part 4): Git branches"<br />http://codekarate.com/blog/introduction-git-part-4
 
 ----
 
@@ -75,7 +91,9 @@ Different versions at the same time
   + <span style="color: forestgreen">Open-source</span>
   + Distributed/decentralized (?)
 
-![SourceTree screenshot.](img/git-www.png) <!-- .element: style="border: none; background: none; height: 300px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->
+![Git homepage.](img/git-www.png) <!-- .element: style="border: none; background: none; height: 300px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->Screenshot from http://git-scm.com
 
 ----
 
@@ -149,6 +167,8 @@ Show example repository:
 ### Remember: branches and merging 
 
 ![Branches.](img/git-features-branch.png)  <!-- .element: style="border: none; background: none; box-shadow: none" -->
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From "An introduction to Git (part 4): Git branches"<br />http://codekarate.com/blog/introduction-git-part-4
 
 ----
 
@@ -246,7 +266,10 @@ Note:
 
 Every copy has the full history: <span style="color: forestgreen">all are equal</span>!
 
-![Decentralized version control.](img/distributed.png)  <!-- .element: style="border: none; background: none; box-shadow: none; height: 450px" -->
+[![Decentralized version control.](img/distributed.png)  <!-- .element: style="border: none; background: none; box-shadow: none; height: 400px" -->](https://git-scm.com/book/en/v2/images/distributed.png)
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From the ["Pro Git book", chapter 1.1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) written by Scott Chacon and Ben Straub, [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)<br />
+https://git-scm.com/book/en/v2/images/distributed.png
 
 ----
 
@@ -256,6 +279,9 @@ Every copy has the full history: <span style="color: forestgreen">all are equal<
 - Hosted service like `github` or `bitbucket`
 
 ![Decentralized version control.](img/distributed.png)  <!-- .element: style="border: none; background: none; box-shadow: none; height: 350px" -->
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From the ["Pro Git book", chapter 1.1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) written by Scott Chacon and Ben Straub, [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)<br />
+https://git-scm.com/book/en/v2/images/distributed.png
 
 ----
 
@@ -300,17 +326,24 @@ Every copy has the full history: <span style="color: forestgreen">all are equal<
 
 ![GUI options.](img/guis.png) <!-- .element: style="border: none; background: none; height: 350px; box-shadow: none;" -->
 
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->Screenshot from https://git-scm.com/download/gui/win
+
 ----
 
 #### GUI example: GitKraken
 
-![GitKraken screenshot.](img/kraken.png) <!-- .element: style="border: none; background: none; height: 500px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->
+[![GitKraken screenshot.](img/kraken.png) <!-- .element: style="border: none; background: none; height: 500px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->](https://blog.axosoft.com/wp-content/uploads/2015/10/1-main-view.png)
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From ["Axosoft GitKraken: Unleash Your Repo!"](https://blog.axosoft.com/2015/10/13/gitkraken-git-gui-client-mac-windows-linux/), written by John Sparrow<br />
+https://blog.axosoft.com/wp-content/uploads/2015/10/1-main-view.png
 
 ----
 
 #### GUI example: SourceTree
 
-![SourceTree screenshot.](img/sourcetree.png) <!-- .element: style="border: none; background: none; height: 500px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->
+[![SourceTree screenshot.](img/sourcetree.png) <!-- .element: style="border: none; background: none; height: 500px; box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);" -->](http://blog.sourcetreeapp.com/files/2013/02/st_win8_beta.png)
+
+<!-- .element: style="font-size: 0.25em; margin-top: -2em" -->From ["SourceTree for Windows beta signup"](https://blog.sourcetreeapp.com/2013/02/14/sourcetree-for-windows-beta-signup/), written by Justen Stepka<br />http://blog.sourcetreeapp.com/files/2013/02/st_win8_beta.png
 
 ---
 
